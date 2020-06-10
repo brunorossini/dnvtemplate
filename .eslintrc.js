@@ -26,7 +26,7 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
-    'react/prop-types': ['error', {ignore: ['navigation']}],
+    'react/prop-types': ['error', { ignore: ['navigation'] }],
     'react/state-in-constructor': 'off',
     'react/jsx-props-no-spreading': ['off'],
     'import-helpers/order-imports': [
@@ -34,7 +34,7 @@ module.exports = {
       {
         newlinesBetween: 'always',
         groups: ['module', '/~/', '/^@shared/', ['parent', 'sibling', 'index']],
-        alphabetize: {order: 'asc', ignoreCase: true},
+        alphabetize: { order: 'asc', ignoreCase: true },
       },
     ],
   },

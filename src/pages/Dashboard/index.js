@@ -1,12 +1,14 @@
 import React from 'react';
-import { Text } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
-import { Container } from './styles';
+import { Container, H1, H1Eina } from './styles';
 
 const Dashboard = () => {
   return (
     <Container>
-      <Text>Hello World</Text>
+      <Icon name="comments" size={30} color="#000" />
+      <H1Eina>Hello World</H1Eina>
+      <H1>Hello World</H1>
     </Container>
   );
 };
