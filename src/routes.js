@@ -3,7 +3,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 // import { useSelector } from 'react-redux';
 
+import Companies from '~/pages/Companies';
 import Dashboard from '~/pages/Dashboard';
+import Menu from '~/pages/Menu';
 
 const Stack = createStackNavigator();
 
@@ -18,6 +20,8 @@ function Routes() {
     <NavigationContainer>
       {/* {signed ? ( */}
       <Stack.Navigator>
+        <Stack.Screen name="Estabelecimentos" component={Companies} />
+        <Stack.Screen name="Menu" component={Menu} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
       </Stack.Navigator>
       {/* ) : (

@@ -3,7 +3,7 @@ import axios from 'axios';
 // import store from '~/store';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3333',
+  baseURL: 'https://devnaveia-api.herokuapp.com/v1/',
 });
 
 // api.interceptors.request.use(config => {
