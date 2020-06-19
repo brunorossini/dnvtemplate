@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { SafeAreaView, FlatList } from 'react-native';
 import Icon from 'react-native-vector-icons/Fontisto';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-import BK from '~/assets/bk.png';
+import BK from '~/assets/img/bk.png';
 import { Creators as CompaniesActions } from '~/store/modules/companies/duck';
 
 import { Item, Logo, Name, ItemInfo, Description, Stats } from './styles';
@@ -11,7 +11,7 @@ import { Item, Logo, Name, ItemInfo, Description, Stats } from './styles';
 const Companies = ({ navigation }) => {
   const dispatch = useDispatch();
 
-  const companies = useSelector((state) => state.companies.companies);
+  // const companies = useSelector((state) => state.companies.companies);
 
   const companiess = [
     {

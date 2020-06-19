@@ -20,8 +20,8 @@ function Routes() {
     <NavigationContainer>
       {/* {signed ? ( */}
       <Stack.Navigator>
-        <Stack.Screen name="Estabelecimentos" component={Companies} />
         <Stack.Screen name="Menu" component={Menu} />
+        <Stack.Screen name="Estabelecimentos" component={Companies} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
       </Stack.Navigator>
       {/* ) : (
